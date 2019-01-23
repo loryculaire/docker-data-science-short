@@ -7,6 +7,11 @@ RUN echo "c.NotebookApp.password = u'sha1:6a3f528eec40:6e896b6e4828f525a6e20e541
 RUN conda update conda
 RUN conda update anaconda
 RUN conda update --all
+RUN conda install -c pytorch -c fastai fastai
+RUN conda install -c conda-forge xgboost
+RUN conda install -c conda-forge keras
+
+
 
 EXPOSE 8888
 
