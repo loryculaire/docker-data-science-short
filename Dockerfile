@@ -9,7 +9,7 @@ RUN conda update anaconda
 RUN conda update --all
 RUN conda install -c pytorch -c fastai fastai
 RUN conda install -c conda-forge xgboost
-RUN conda install -c conda-forge keras
+#RUN conda install -c conda-forge keras
 
 
 
